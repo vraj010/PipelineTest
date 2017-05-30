@@ -5,7 +5,6 @@ pipeline {
       steps {
         parallel(
           "Clone": {
-            git(url: 'https://github.com/vraj010/PipelineTest.git', branch: 'master')
             sh 'echo "Repo cloned"'
             
           },
