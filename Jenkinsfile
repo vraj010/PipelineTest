@@ -10,6 +10,10 @@ pipeline {
           },
           "Config": {
             sleep 5
+            node(label: 'test') {
+              sleep 5
+            }
+            
             
           }
         )
