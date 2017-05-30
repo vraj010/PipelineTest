@@ -10,7 +10,7 @@ pipeline {
           },
           "Config": {
             sleep 5
-            node(label: 'test') {
+            node(label: 'master') {
               sleep 5
             }
             
